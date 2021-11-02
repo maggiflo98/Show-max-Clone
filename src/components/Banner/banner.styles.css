@@ -1,0 +1,10 @@
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 448px;
+    object-fit: contain;
+}
+
+.banner-contents{
+    background-color: black;
+}

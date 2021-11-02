@@ -1,5 +1,4 @@
 import './App.css';
-import axios from "./axios";
 import Navbar from "../src/components/Navbar/navbar.component";
 import Banner from '../src/components/Banner/banner.component';
 import Row from '../src/components/Row/row.component';
