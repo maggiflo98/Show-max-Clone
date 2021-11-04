@@ -8,6 +8,7 @@
     overflow-y: scroll;
     overflow-x: scroll;
     padding: 20px;
+    
 }
 
 .row_posters::-webkit-scrollbar{
@@ -19,11 +20,12 @@
     object-fit: contain;
     width: 100%;
     max-height: 250px;
-    margin-right: 10px;
+    margin-right: 15px;
     transition: transform 450ms;
    
     
 }
 .row_poster:hover{
+    outline: 0.3rem solid white; 
     transform: scale(1.08);
 }

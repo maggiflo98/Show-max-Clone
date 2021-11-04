@@ -12,17 +12,21 @@
 }
 
 .nav_profile{
-    height: 10rem;
-    width: 10rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     background-color: teal;
 }
 p{
     position: absolute;
-    margin-left: 5rem;
     color: white;
-    font-size: 1rem;
-    font-weight: 5rem;
-    transform: translate(-50%,-30%);
+    font-size: 3rem;
+    font-weight: 10rem;
+    margin-left: 40rem;
+    top:90%;
+    left: 50%;
+    transform: translate(-60%,-50%);
 
     }
+
+    
