@@ -4,7 +4,7 @@ import "./navbar.styles.css";
 function navbar() {
     return (
         <div className="nav">
-           <img className ="nav_logo"src="https://cdn.24.co.za/files/Cms/General/d/4359/dccba690f2b34e42878a0ddb50086f4b.jpg" alt="showmax logo"/> 
+           <img className ="nav_logo"src="https://store-images.s-microsoft.com/image/apps.44398.13709762671789889.2eaeea46-c3eb-4689-aea0-11c88f63b917.37e6718f-1f1b-4e7f-b306-54ed7a0016fb" alt="showmax logo"/> 
            <div className ="nav_profile" >
                <p>p</p>
                

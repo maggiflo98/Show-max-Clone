@@ -29,3 +29,7 @@
     outline: 0.3rem solid white; 
     transform: scale(1.08);
 }
+
+h1{
+    margin-top: 1rem;
+}

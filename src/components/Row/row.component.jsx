@@ -1,6 +1,8 @@
 import React, { useState,useEffect } from 'react'
 import axios from "../../axios";
 import "./row.css";
+import Kenyan from './kenyan.component';
+
 
 
 const base_url="https://image.tmdb.org/t/p/original/";
@@ -30,6 +32,8 @@ function Row({title,fetchUrl}) {
                 {movies && movies.map(movie=>(
                     <img className="row_poster"  key={movie.id} src={`${base_url}${movie?movie.poster_path:movie.backdrop_path}`} alt={movie.name}/>
                 ))}
+                  
+               
             </div>
             
         </div>
