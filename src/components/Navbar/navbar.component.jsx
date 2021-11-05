@@ -1,4 +1,6 @@
 import React from 'react'
+import{FaAngleUp} from 'react-icons/fa';
+
 import "./navbar.styles.css";
 
 function navbar() {
@@ -9,6 +11,7 @@ function navbar() {
                <p>p</p>
                
            </div>
+           <FaAngleUp className="icon"style={{color:"white",alignItems:"center",height:"50vh",margin:"auto",position:"absolute",marginLeft:"41.7rem"}} />
            
         </div>
     )

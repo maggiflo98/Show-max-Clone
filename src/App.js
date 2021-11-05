@@ -4,11 +4,13 @@ import Banner from '../src/components/Banner/banner.component';
 import Row from '../src/components/Row/row.component';
 import requests from "../src/request";
 import Kenyan from "../src/components/Row/kenyan.component";
+// import Menu from "../src/components/Menu/menu.component";
 
 
 function App() {
   return (
     <div className="App">
+      {/* <Menu/> */}
       <Navbar/>
       <Banner/>
        <Kenyan/> 

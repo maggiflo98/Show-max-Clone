@@ -43,6 +43,8 @@ function Banner() {
             
             <div className="image" style={{backgroundImage:`url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,backgroundPosition:"center center",width:"100%",height:"100%",backgroundSize:"cover"}}/>
          
+         
+     
 
         </header>
     )

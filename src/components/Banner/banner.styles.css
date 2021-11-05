@@ -58,4 +58,15 @@
       background-color: #e6e6e6;
       border-radius: 5rem;
   }
- 
+ .fade-bottom{
+
+        background-image:
+          linear-gradient(
+            180deg ,
+            red, 
+            #f06d06, 
+            rgb(255, 255, 0), 
+            green
+          );
+      
+ }
